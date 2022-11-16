@@ -21,6 +21,11 @@ body {
   padding: 0 1rem;
 }
 
+.Nav-Bar-Categories {
+  display: flex;
+
+}
+
 .site-title {
   font-size: 2rem;
 }
@@ -48,4 +53,10 @@ body {
 
 .nav li:hover {
   background-color: #777;
+}
+
+.tenants-desc {
+  margin: 0;
+  padding: 0;
+  align-content: left;
 }
