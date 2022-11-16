@@ -1,3 +1,14 @@
+import logo from '../../src/assets/images/logo.png'
+
 export default function Home() {
-  return <h1>Home of the 1nnovat10rs</h1>
+  return (
+    <>
+      <h1>h0me of the 1nnovat0rs</h1><div className="logo-home-page">
+        <img src={logo}
+          width={700}
+          height={500}
+          alt="innovat10ns Logo" />
+      </div>
+    </>
+  )
 }
