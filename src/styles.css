@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'outline_pixel-7_solid';
+  src: url('fonts/outline_pixel-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +27,7 @@ body {
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  font-family: 'outline_pixel-7';
+  font-family: 'outline_pixel-7_solid';
 }
 
 .Nav-Bar-Categories {
