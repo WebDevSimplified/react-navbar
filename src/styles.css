@@ -12,13 +12,14 @@ body {
 }
 
 .nav {
-  background-color: #333;
+  background-color: rgb(10, 138, 211);
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  font-family: 'outline_pixel-7';
 }
 
 .Nav-Bar-Categories {
@@ -59,4 +60,15 @@ body {
   margin: 0;
   padding: 0;
   align-content: left;
+}
+
+footer {
+  position: fixed;
+  background-color: rgb(10, 138, 211);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+  color: rgb(255, 142, 40)
 }

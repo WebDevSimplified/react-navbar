@@ -1,32 +1,40 @@
+// import logo from '../../src/assets/images/logo.png'
+
 export default function Tenants() {
     return (
         <>
             <div>
                 <h1>Tenants</h1>
+                {/* <div className="logo-home-page">
+                    <img src={logo}
+                        width={700}
+                        height={500}
+                        alt="innovat10ns Logo" />
+                </div> */}
                 <div className="tenants-desc">
                     <ul>
                         innovation is altruistic
-                        <br/>
+                        <br />
                         innovation is universal
-                        <br/>
+                        <br />
                         innovation is diverse
-                        <br/>
+                        <br />
                         innovation is ESU;
-                        <br/>
+                        <br />
                         Easy to use, Simple to Explain, and Useful
-                        <br/>
+                        <br />
                         innovation can come from anywhere, even the most unlikely of heroes
-                        <br/>
+                        <br />
                         innovation can be inconvenient
-                        <br/>
+                        <br />
                         innovation does not have to be disruptive; but it most likely is
-                        <br/>
+                        <br />
                         innovation may appear like magic
-                        <br/>
+                        <br />
                         innovation is contemplatively spontaneous
-                        <br/>
+                        <br />
                         innovation breeds innovation, spinoffs are inevitable
-                        <br/>
+                        <br />
                         innovation is collaborative
                     </ul>
                 </div>
