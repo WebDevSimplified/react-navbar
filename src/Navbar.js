@@ -1,10 +1,8 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-// import logo from '../src/assets/images/logo.png'
 
 export default function Navbar() {
   return (
     <>
-      {/* <Card image={logo} /> */}
       <nav className="nav">
         <Link to="/" className="site-title">
           innovat10ns
