@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'outline_pixel-7_solid';
-  src: url('fonts/outline_pixel-7.ttf') format('truetype');
+  font-family: 'coolvetica compressed rg';
+  src: url('fonts/coolvetica compressed rg.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -21,13 +21,14 @@ body {
 
 .nav {
   background-color: rgb(10, 138, 211);
+  font-size: 2rem;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  font-family: 'outline_pixel-7_solid';
+  font-family: 'coolvetica compressed rg';
 }
 
 .Nav-Bar-Categories {
@@ -85,7 +86,7 @@ body {
   gap: 2rem;
   padding: 0 1rem;
   list-style: none;
-  font-family: 'outline_pixel-7_solid';
+  font-family: 'coolvetica compressed rg';
 }
 
 .footer-site-title {
