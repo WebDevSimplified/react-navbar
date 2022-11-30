@@ -97,20 +97,13 @@ body {
   padding: 8px;
   gap: 2rem;
   padding: 0 1rem;
+  text-decoration: none;
 }
 
 .Footer-Bar-Categories {
   display: flex;
   list-style: none;
 }
-
-/* .Footer-Bar-Categories ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-} */
 
 .Footer-Bar-Categories a {
   color: inherit;
