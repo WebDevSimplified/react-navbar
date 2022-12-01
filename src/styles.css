@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'coolvetica compressed rg';
-  src: url('fonts/coolvetica compressed rg.ttf') format('truetype');
+  font-family: 'coolvetica rg_0';
+  src: url('fonts/coolvetica rg_0.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -12,6 +12,7 @@
 
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -21,14 +22,14 @@ body {
 
 .nav {
   background-color: rgb(10, 138, 211);
-  font-size: 2rem;
+  font-size: 20px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  font-family: 'coolvetica compressed rg';
+  font-family: 'coolvetica rg_0';
 }
 
 .Nav-Bar-Categories {
@@ -86,7 +87,7 @@ body {
   gap: 2rem;
   padding: 0 1rem;
   list-style: none;
-  font-family: 'coolvetica compressed rg';
+  font-family: 'coolvetica rg_0';
 }
 
 .footer-site-title {

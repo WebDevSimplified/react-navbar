@@ -3,7 +3,7 @@
 export default function Tenants() {
     return (
         <>
-            <div>
+            <div className="tenants-title">
                 <h1>Tenants</h1>
                 {/* <div className="logo-home-page">
                     <img src={logo}
