@@ -13,6 +13,10 @@ import Careers from "./pages/Careers"
 import Contact from "./pages/Contact"
 import Industries from "./pages/Industries"
 import Toplogo from "./images/toplogo.svg"
+import Graphic from "./images/graphic.svg"
+import InnovationLogo from "./images/innovation_logo.png"
+import SideLogo from "./images/sidelogo.svg"
+import TextLogo from "./images/textlogo.svg"
 
 export const UserContext = createContext();
 
@@ -25,7 +29,12 @@ function App() {
       <Navbar />
       <div className="App">
         {/* <img src={Toplogo} className="topLogo" alt="logo" /> */}
-        <UserContext.Provider value={Toplogo}>
+        <UserContext.Provider
+          value={Toplogo}
+          value={Graphic}
+          value={InnovationLogo}
+          value={SideLogo}
+          value={TextLogo}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/How" element={<How />} />
