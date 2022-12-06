@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'outline_pixel-7_solid';
+  src: url('fonts/outline_pixel-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,13 +20,19 @@ body {
 }
 
 .nav {
-  background-color: #333;
+  background-color: rgb(10, 138, 211);
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  font-family: 'outline_pixel-7_solid';
+}
+
+.Nav-Bar-Categories {
+  display: flex;
+
 }
 
 .site-title {
@@ -47,5 +61,63 @@ body {
 }
 
 .nav li:hover {
+  background-color: #777;
+}
+
+.tenants-desc {
+  margin: 0;
+  padding: 0;
+  align-content: left;
+}
+
+.footer {
+  position: fixed;
+  background-color: rgb(10, 138, 211);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+  color: rgb(255, 142, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  list-style: none;
+  font-family: 'outline_pixel-7_solid';
+}
+
+.footer-site-title {
+  color: rgb(255, 142, 40);
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  gap: 2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.Footer-Bar-Categories {
+  display: flex;
+  list-style: none;
+}
+
+.Footer-Bar-Categories a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.Footer-Bar-Categories li.active {
+  background-color: #555;
+}
+
+.Footer-Bar-Categories li:hover {
   background-color: #777;
 }
