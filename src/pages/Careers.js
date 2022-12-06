@@ -1,9 +1,11 @@
 // import logo from '../../src/assets/images/logo.png'
 
-export default function Home() {
+
+export default function Careers() {
   return (
     <>
-      {/* <h1>h0me of the 1nnovat0rs</h1><div className="logo-home-page">
+      <h1>Careers</h1>
+      {/* <div className="logo-home-page">
         <img src={logo}
           width={700}
           height={500}
@@ -12,3 +14,4 @@ export default function Home() {
     </>
   )
 }
+  
