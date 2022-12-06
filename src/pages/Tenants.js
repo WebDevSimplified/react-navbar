@@ -1,16 +1,20 @@
-// import logo from '../../src/assets/images/logo.png'
+import React from "react"
+import Toplogo from "../images/toplogo.svg"
 
-export default function Tenants() {
+// let Toplogo = props => (
+//     <img src={props.Toplogo}/>
+// )
+
+export default function Tenants({props}) {
     return (
         <>
             <div className="tenants-title">
                 <h1>Tenants</h1>
-                {/* <div className="logo-home-page">
-                    <img src={logo}
-                        width={700}
-                        height={500}
+                <div className="logo-home-page">
+                    <img src={Toplogo}
+                        width={200}
                         alt="innovat10ns Logo" />
-                </div> */}
+                </div>
                 <div className="tenants-desc">
                     <ul>
                         innovation is altruistic

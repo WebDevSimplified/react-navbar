@@ -1,4 +1,6 @@
 // import logo from '../../src/assets/images/logo.png'
+import { UserContext } from "../App"
+import { useContext } from "react"
 
 export default function Home() {
   return (
